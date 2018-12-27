@@ -1,0 +1,87 @@
+
+h1 {
+   font-family: myFirstFont;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+ul {
+      position: right;
+    	list-style-type: none;
+    	margin: 0;
+    	padding: 0;
+    	overflow: hidden;
+      opacity: 5;
+      z-index: 1;
+
+	}
+
+ul li:first-child { float: left; }
+
+	li {
+      float: right;
+	}
+
+
+	li a {
+    	display: inline-block;
+    	color: white;
+    	text-align: center;
+    	padding: 20px 22px;
+    	text-decoration: none;
+      font-size: 20px;
+
+	}
+
+
+//	.active {
+    	background-color: #ff0000;
+	}
+
+.background{
+  background-image: url("https://i.kinja-img.com/gawker-media/image/upload/s---H5q1B7W--/c_scale,f_auto,fl_progressive,q_80,w_800/yw5yny3k5tbkcr1astqs.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+    #underline {
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+    }
+
+    #underline::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        background: white;
+        transition: width .3s;
+    }
+
+    #underline:hover::after {
+        width: 100%;
+        //transition: width .3s;
+    }
+
+    .title{
+        color: #ff9900;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    		margin:auto;
+    		width:50%;
+    		padding: 20%;
+    		text-align: center;
+    		font-size:60px;
+        font-family: 'Krona One';
+
+    	}
+
+    p{
+    margin:auto;
+		width:50%;
+		padding: 10px;
+    }
